@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/GDSC-Assets-master/logos/gdsc.png"
+import logo from "@/GDSC-Assets-master/logos/google-developers-seeklogo.png"
 
 export default function Logo() {
   return (
     <Link href="/" className="inline-flex shrink-0" aria-label="Cruip">
-      <Image src={logo} alt="Cruip Logo" width={350}/>
+      <Image src={logo} alt="Cruip Logo" height={20}/>
     </Link>
   );
 }
